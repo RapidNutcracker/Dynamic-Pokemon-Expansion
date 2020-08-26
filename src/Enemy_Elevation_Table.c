@@ -1,3 +1,5 @@
+#include "defines.h"
+
 const u8 gEnemyMonElevation[NUM_SPECIES] =
 {
 	[SPECIES_NONE] = 0x0,
