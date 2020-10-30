@@ -413,7 +413,7 @@ When this ill-tempered Pok\emon runs\nwild, it shoots lightning from its mane\ni
 Its ear is hexagonal in shape.\nCompressed underground, its body is as\nhard as steel.
 
 #org @DEX_ENTRY_BOLDORE
-ys it absorbs are processed\nin its energy core and fired as a ball\nof light.
+If you see its orange crystals\nstart to glow, be wary. It's about to\nfire off bursts of energy.
 
 #org @DEX_ENTRY_GIGALITH
 The solar rays it absorbs are processed\nin its energy core and fired as a ball\nof light.
@@ -1271,7 +1271,7 @@ Revered long ago for its capacity\nto create iron from nothing, it has\ncome bac
 It attacks with rapid beats of its\nstick. As it strikes with amazing speed,\nit gets more and more pumped.
 
 #org @DEX_ENTRY_THWACKEY
-The faster a Thwackey can beat out a\nrhythm with its two sticks, the more respect\nit wins from its peers.
+The faster a Thwackey beats out a\nrhythm with its two sticks, the more\nrespect it wins from its peers.
 
 #org @DEX_ENTRY_RILLABOOM
 By drumming, it taps into the power of\nits special tree stump. The roots of the\nstump follow its direction in battle.
@@ -1448,7 +1448,7 @@ They say that any patisserie visited\nby Milcery is guaranteed success and\ngood
 It evolved from a Milcery that held\nonto a Strawberry Sweet. Its flavor\ndepends on how it was mixed.
 
 #org @DEX_ENTRY_FALINKS
-The six of them work together as one.\nTeamwork is also their battle strategy, and\nthey constantly change their formation.
+The six of them work together as one.\nTeamwork is their battle strategy, and\nthey constantly change their formation.
 
 #org @DEX_ENTRY_PINCURCHIN
 It feeds on seaweed, using its teeth\nto scrape it off rocks. Electric current\nflows from the tips of its spines.
@@ -1466,7 +1466,7 @@ Once a year, on a specific date and\nat a specific time, they gather out of\nnow
 It drifted in on the flow of ocean\nwaters from a frigid place. It keeps its\nhead iced constantly to stay cold.
 
 #org @DEX_ENTRY_INDEEDEE
-Through its horns, it can pick up on\nthe emotions of creatures around it. Males\nwill act as valets for those they serve.
+Using its horns, it can pick up on the\nemotions of creatures around it. Males\nwill act as valets for those they serve.
 
 #org @DEX_ENTRY_MORPEKO
 As it eats the seeds stored up in its\npouches, it generates electricity while\nsatisfying its constant hunger.
@@ -1518,6 +1518,18 @@ Inhabiting the mountains of a distant\nregion, it races across sheer cliffs, tra
 
 #org @DEX_ENTRY_ZARUDE
 Once the vines on its body tear off,\nthey become nutrients in the soil. This helps\nthe plants of the forest grow.
+
+#org @DEX_ENTRY_UNKNOWN_MYTHICAL
+This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+
+#org @DEX_ENTRY_CALYREX
+Its every move is filled with grace\nand dignity. Extremely intelligent, it is said\nto see past, present, and future events.
+
+#org @DEX_ENTRY_REGIELEKI
+This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+
+#org @DEX_ENTRY_REGIDRAGO
+This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
 
 //Special Form Entries
 
@@ -1599,19 +1611,18 @@ This Pok\emon consumes particles that\ncontaminate the air. Instead of leaving\n
 #org @DEX_ENTRY_MR_MIME_G
 It can radiate chilliness from the\nbottoms of its feet. It'll spend its\nday tap dancing on a frozen floor.
 
-/*
+
 #org @DEX_ENTRY_ARTICUNO_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+Known as Articuno, this Pok\emon fires\nbeams that can immoblize opponents as\nif they had been frozen solid.
 
 #org @DEX_ENTRY_ZAPDOS_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+One kick from its powerful legs will\npulverize a dump truck. Supposedly,\nthis Pok\emon runs at over 180 mph. 
 
 #org @DEX_ENTRY_MOLTRES_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+This Pok\emon's sinister, flame-like\naura will consume the spirit of any\ncreature it hits. 
 
 #org @DEX_ENTRY_SLOWKING_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time. 
-*/
+While chanting strange spells, this\nPok\emon combines its internal toxins with\nwhat it ate, creating strange potions.
 
 #org @DEX_ENTRY_CORSOLA_G
 Sudden climate change wiped out this\nancient kind of Corsola. It absorbs the\nlife force of others through its branches.
@@ -1723,3 +1734,9 @@ Infinite amounts of energy pour from\nthis Pok\emon's enlarged core, warping\nth
 
 #org @DEX_ENTRY_URSHIFU_RAPID
 This form of Urshifu strongly believes\nin defeating foes by raining many blows down\non them. Its strikes flow like a river.
+
+#org @DEX_ENTRY_GLASTRIER
+This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+
+#org @DEX_ENTRY_SPECTRIER
+This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.

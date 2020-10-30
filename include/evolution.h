@@ -43,6 +43,9 @@ enum EvolutionMethods
 	EVO_MOVE,	// knows a given move
 	EVO_OTHER_PARTY_MON,	//another poke in the party, arg is a specific species
 	EVO_LEVEL_SPECIFIC_TIME_RANGE, // above given level with a range (unknown is [start][end]. eg lycanroc -> 1700-1800 hrs -> 0x1112)
+	EVO_FLAG_SET,
+	EVO_NATURE_TOXTRICITY,
+    EVO_NATURE_LOWKEY,
 };
 
 #define EVO_GIGANTAMAX 0xFD

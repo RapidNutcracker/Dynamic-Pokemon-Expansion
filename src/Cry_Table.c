@@ -7082,7 +7082,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryYamask,
+		.wav = gCryCofagrigus, //gCryYamask,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -13214,7 +13214,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryYamper,
+		.wav = gCryBoltund, //gCryYamper,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -13880,42 +13880,43 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-/*	[SPECIES_KUBFU] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryKubfu,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_URSHIFU_SINGLE] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryUrshifu,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_ZARUDE] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryZarude,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
+	// [SPECIES_KUBFU] =
+	// {	
+	// 	.type = 0x20,
+	// 	.key = 0x3c,
+	// 	.length = 0x0,
+	// 	.pan_sweep = 0x0,
+	// 	.wav = gCryKubfu,
+	// 	.attack = 0xff,
+	// 	.decay = 0x0,
+	// 	.sustain = 0xff,
+	// 	.release = 0x0,
+	// },
+	// [SPECIES_URSHIFU_SINGLE] =
+	// {	
+	// 	.type = 0x20,
+	// 	.key = 0x3c,
+	// 	.length = 0x0,
+	// 	.pan_sweep = 0x0,
+	// 	.wav = gCryUrshifu,
+	// 	.attack = 0xff,
+	// 	.decay = 0x0,
+	// 	.sustain = 0xff,
+	// 	.release = 0x0,
+	// },
+	// [SPECIES_ZARUDE] =
+	// {	
+	// 	.type = 0x20,
+	// 	.key = 0x3c,
+	// 	.length = 0x0,
+	// 	.pan_sweep = 0x0,
+	// 	.wav = gCryZarude,
+	// 	.attack = 0xff,
+	// 	.decay = 0x0,
+	// 	.sustain = 0xff,
+	// 	.release = 0x0,
+	// },
+	/*
 	[SPECIES_UNKNOWN_MYTHICAL] =
 	{	
 		.type = 0x20,
@@ -13927,14 +13928,14 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
-	},
+	}, */
 	[SPECIES_CALYREX] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryCalyrex,
+		.wav = (u8*) 0x8672164,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -13946,7 +13947,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryRegieleki,
+		.wav = (u8*) 0x8672164,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -13958,12 +13959,12 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryRegidrago,
+		.wav = (u8*) 0x8676140,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
-	}, */
+	}, 
 	[SPECIES_CRAMORANT_GULPING] =
 	{	
 		.type = 0x20,
@@ -14240,6 +14241,18 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
+	[SPECIES_KOFFING_G] =
+	{
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = (u8*) 0x8583f4c,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
 	[SPECIES_FARFETCHD_G] =
 	{	
 		.type = 0x20,
@@ -14259,6 +14272,18 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = (u8*) 0x85853a8,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_MIME_JR_G] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryMimeJr,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -14402,7 +14427,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryYamask,
+		.wav = gCryCofagrigus, //gCryYamask,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -14828,4 +14853,28 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	}, */
+	[SPECIES_GLASTRIER] =
+	{
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = (u8*) 0x860bfe8,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_SPECTRIER] =
+	{
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = (u8*) 0x860ab74,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
 };

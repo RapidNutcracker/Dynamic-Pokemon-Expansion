@@ -1168,14 +1168,14 @@ extern const u8 gFrontSprite1189RegidragoTiles[];
 extern const u8 gFrontSprite1190CramorantGulpingTiles[];
 extern const u8 gFrontSprite1191CramorantGorgingTiles[];
 extern const u8 gFrontSprite1192ToxtricityLowKeyTiles[];
-extern const u8 gFrontSprite1193SinisteaChippedTiles[];//来杯茶赝品
-extern const u8 gFrontSprite1194PolteageistChippedTiles[];//同上
+extern const u8 gFrontSprite1193SinisteaChippedTiles[];
+extern const u8 gFrontSprite1194PolteageistChippedTiles[];
 extern const u8 gFrontSprite1195AlcremieBerryTiles[];
 extern const u8 gFrontSprite1196AlcremieLoveTiles[];
 extern const u8 gFrontSprite1197AlcremieCloverTiles[];
 extern const u8 gFrontSprite1198AlcremieFlowerTiles[];
 extern const u8 gFrontSprite1199AlcremieRibbonTiles[];
-extern const u8 gFrontSprite1200AlcremieStarTiles[];//双奶昔
+extern const u8 gFrontSprite1200AlcremieStarTiles[];
 extern const u8 gFrontSprite1201EiscueNoiceTiles[];
 extern const u8 gFrontSprite1202IndeedeeFemaleTiles[];
 extern const u8 gFrontSprite1203MorpekoHangryTiles[];
@@ -1237,6 +1237,10 @@ extern const u8 gFrontSprite1258CopperajahGigaTiles[];
 extern const u8 gFrontSprite1259DuraludonGigaTiles[];
 extern const u8 gFrontSprite1260UrshifuSilentGigaTiles[];
 extern const u8 gFrontSprite1261UrshifuRapidGigaTiles[];
+extern const u8 gFrontSprite1262GlastrierTiles[];
+extern const u8 gFrontSprite1263SpectrierTiles[];
+extern const u8 gFrontSprite1264CalyrexIceTiles[];
+extern const u8 gFrontSprite1265CalyrexShadowTiles[];
 
 extern const u8 gFrontSprite252Tiles[];
 
@@ -2477,6 +2481,10 @@ extern const u8 gBackShinySprite1258CopperajahGigaTiles[];
 extern const u8 gBackShinySprite1259DuraludonGigaTiles[];
 extern const u8 gBackShinySprite1260UrshifuSilentGigaTiles[];
 extern const u8 gBackShinySprite1261UrshifuRapidGigaTiles[];
+extern const u8 gBackShinySprite1262GlastrierTiles[];
+extern const u8 gBackShinySprite1263SpectrierTiles[];
+extern const u8 gBackShinySprite1264CalyrexIceTiles[];
+extern const u8 gBackShinySprite1265CalyrexShadowTiles[];
 
 extern const u8 gBackShinySprite252Tiles[];
 
@@ -3719,6 +3727,10 @@ extern const u8 gFrontSprite1258CopperajahGigaPal[];
 extern const u8 gFrontSprite1259DuraludonGigaPal[];
 extern const u8 gFrontSprite1260UrshifuSilentGigaPal[];
 extern const u8 gFrontSprite1261UrshifuRapidGigaPal[];
+extern const u8 gFrontSprite1262GlastrierPal[];
+extern const u8 gFrontSprite1263SpectrierPal[];
+extern const u8 gFrontSprite1264CalyrexIcePal[];
+extern const u8 gFrontSprite1265CalyrexShadowPal[];
 
 extern const u8 gFrontSprite252Pal[];
 
@@ -4959,6 +4971,10 @@ extern const u8 gBackShinySprite1258CopperajahGigaPal[];
 extern const u8 gBackShinySprite1259DuraludonGigaPal[];
 extern const u8 gBackShinySprite1260UrshifuSilentGigaPal[];
 extern const u8 gBackShinySprite1261UrshifuRapidGigaPal[];
+extern const u8 gBackShinySprite1262GlastrierPal[];
+extern const u8 gBackShinySprite1263SpectrierPal[];
+extern const u8 gBackShinySprite1264CalyrexIcePal[];
+extern const u8 gBackShinySprite1265CalyrexShadowPal[];
 
 extern const u8 gBackShinySprite252Pal[];
 
@@ -6039,7 +6055,7 @@ extern const u8 gIconSprite1098PikachuCapAlolaTiles[];
 extern const u8 gIconSprite1099PikachuCapPartnerTiles[];
 extern const u8 gIconSprite1100PichuSpikyTiles[];
 extern const u8 gIconSprite1101XerneasNaturalTiles[];
-/* extern const u8 gIconSprite1102GrookeyTiles[];
+extern const u8 gIconSprite1102GrookeyTiles[];
 extern const u8 gIconSprite1103ThwackeyTiles[];
 extern const u8 gIconSprite1104RillaboomTiles[];
 extern const u8 gIconSprite1105ScorbunnyTiles[];
@@ -6114,25 +6130,28 @@ extern const u8 gIconSprite1173ArctozoltTiles[];
 extern const u8 gIconSprite1174DracovishTiles[];
 extern const u8 gIconSprite1175ArctovishTiles[];
 extern const u8 gIconSprite1176DuraludonTiles[];
-*/
-
 extern const u8 gIconSprite1177DreepyTiles[];
-/*
 extern const u8 gIconSprite1178DrakloakTiles[];
 extern const u8 gIconSprite1179DragapultTiles[];
 extern const u8 gIconSprite1180ZacianTiles[];
 extern const u8 gIconSprite1181ZamazentaTiles[];
 extern const u8 gIconSprite1182EternatusTiles[];
+
 extern const u8 gIconSprite1183KubfuTiles[];
 extern const u8 gIconSprite1184UrshifuSingleTiles[];
 extern const u8 gIconSprite1185ZarudeTiles[];
-extern const u8 gIconSprite1186UnknownMythicalTiles[];
+//extern const u8 gIconSprite1186UnknownMythicalTiles[];
+
+
 extern const u8 gIconSprite1187CalyrexTiles[];
 extern const u8 gIconSprite1188RegielekiTiles[];
 extern const u8 gIconSprite1189RegidragoTiles[];
+
+
 extern const u8 gIconSprite1190CramorantGulpingTiles[];
 extern const u8 gIconSprite1191CramorantGorgingTiles[];
-extern const u8 gIconSprite1192ToxtricityLowKeyTiles[];
+extern const u8 gIconSprite1192ToxtricityLowKeyTiles[]; 
+/*
 extern const u8 gIconSprite1193SinisteaChippedTiles[];
 extern const u8 gIconSprite1194PolteageistChippedTiles[];
 extern const u8 gIconSprite1195AlcremieBerryTiles[];
@@ -6141,9 +6160,11 @@ extern const u8 gIconSprite1197AlcremieCloverTiles[];
 extern const u8 gIconSprite1198AlcremieFlowerTiles[];
 extern const u8 gIconSprite1199AlcremieRibbonTiles[];
 extern const u8 gIconSprite1200AlcremieStarTiles[];
+*/
 extern const u8 gIconSprite1201EiscueNoiceTiles[];
 extern const u8 gIconSprite1202IndeedeeFemaleTiles[];
 extern const u8 gIconSprite1203MorpekoHangryTiles[];
+
 extern const u8 gIconSprite1204ZacianCrownedTiles[];
 extern const u8 gIconSprite1205ZamazentaCrownedTiles[];
 extern const u8 gIconSprite1206EternatusEternamaxTiles[];
@@ -6168,24 +6189,34 @@ extern const u8 gIconSprite1224DarmanitanGTiles[];
 extern const u8 gIconSprite1225DarmanitanGZenTiles[];
 extern const u8 gIconSprite1226YamaskGTiles[];
 extern const u8 gIconSprite1227StunfiskGTiles[];
+/*
 extern const u8 gIconSprite1228VenusaurGigaTiles[];
 extern const u8 gIconSprite1229CharizardGigaTiles[];
 extern const u8 gIconSprite1230BlastoiseGigaTiles[];
+*/
 extern const u8 gIconSprite1231ButterfreeGigaTiles[];
+/*
 extern const u8 gIconSprite1232PikachuGigaTiles[];
 extern const u8 gIconSprite1233MeowthGigaTiles[];
+*/
 extern const u8 gIconSprite1234MachampGigaTiles[];
+/*
 extern const u8 gIconSprite1235GengarGigaTiles[];
+*/
 extern const u8 gIconSprite1236KinglerGigaTiles[];
 extern const u8 gIconSprite1237LaprasGigaTiles[];
+/*
 extern const u8 gIconSprite1238EeveeGigaTiles[];
+*/
 extern const u8 gIconSprite1239SnorlaxGigaTiles[];
 extern const u8 gIconSprite1240GarbodorGigaTiles[];
+/*
 extern const u8 gIconSprite1241MelmetalGigaTiles[];
 extern const u8 gIconSprite1242RillaboomGigaTiles[];
 extern const u8 gIconSprite1243CinderaceGigaTiles[];
 extern const u8 gIconSprite1244InteleonGigaTiles[];
 extern const u8 gIconSprite1245CorviknightGigaTiles[];
+*/
 extern const u8 gIconSprite1246OrbeetleGigaTiles[];
 extern const u8 gIconSprite1247DrednawGigaTiles[];
 extern const u8 gIconSprite1248CoalossalGigaTiles[];
@@ -6193,14 +6224,21 @@ extern const u8 gIconSprite1249FlappleGigaTiles[];
 extern const u8 gIconSprite1250AppletunGigaTiles[];
 extern const u8 gIconSprite1251SandacondaGigaTiles[];
 extern const u8 gIconSprite1252ToxtricityGigaTiles[];
-extern const u8 gIconSprite1253ToxtricityLowKeyGigaTiles[];
+/*
+extern const u8 gIconSprite1253ToxtricityLowKeyGigaTiles[]; */
 extern const u8 gIconSprite1254CentiskorchGigaTiles[];
-extern const u8 gIconSprite1255HattereneGigaTiles[];
+//extern const u8 gIconSprite1255HattereneGigaTiles[];
 extern const u8 gIconSprite1256GrimmsnarlGigaTiles[];
 extern const u8 gIconSprite1257AlcremieGigaTiles[];
 extern const u8 gIconSprite1258CopperajahGigaTiles[];
+
 extern const u8 gIconSprite1259DuraludonGigaTiles[];
+/*
 extern const u8 gIconSprite1260UrshifuSilentGigaTiles[];
 extern const u8 gIconSprite1261UrshifuRapidGigaTiles[];
 */
+extern const u8 gIconSprite1262GlastrierTiles[];
+extern const u8 gIconSprite1263SpectrierTiles[];
+// extern const u8 gIconSprite1264CalyrexIcePal[];
+// extern const u8 gIconSprite1265CalyrexShadowPal[];
 extern const u8 gIconSprite252Tiles[];
