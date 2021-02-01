@@ -5641,7 +5641,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_YAMPER] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0x9,
 	},
 	[SPECIES_BOLTUND] =
 	{
@@ -5821,7 +5821,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_PINCURCHIN] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0xE,
 	},
 	[SPECIES_SNOM] =
 	{
