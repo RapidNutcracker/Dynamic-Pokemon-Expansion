@@ -5946,7 +5946,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_REGIELEKI] =
 	{
 		.size = 0x0,
-		.y_offset = 0x10,
+		.y_offset = 0x8,
 	},
 	[SPECIES_REGIDRAGO] =
 	{
@@ -6266,7 +6266,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SANDACONDA_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x5,
 	},
 	[SPECIES_TOXTRICITY_GIGA] =
 	{
@@ -6281,7 +6281,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_CENTISKORCH_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x2,
 	},
 	[SPECIES_HATTERENE_GIGA] =
 	{
@@ -6296,12 +6296,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_ALCREMIE_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_COPPERAJAH_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x8,
 	},
 	[SPECIES_DURALUDON_GIGA] =
 	{

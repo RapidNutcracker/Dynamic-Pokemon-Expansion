@@ -611,6 +611,10 @@
 #define ITEM_APPLITE      0x2E3
 #define ITEM_ORBEETLITE   0x2E4
 #define ITEM_GRIMMSNITE   0x2E5
+#define ITEM_MEDICINE     0x2E6
+#define ITEM_CENTISKITE   0x2E7
+#define ITEM_SANDACONDITE 0x2E8
+#define ITEM_ALCREMITE    0x2E9
 
 //Z-Crystals
 enum
