@@ -10760,8 +10760,8 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	[NATIONAL_DEX_CALYREX] =
 	{
 		.categoryName = {_K, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
+		.height = 11,
+		.weight = 77,
 		.description = DEX_ENTRY_CALYREX,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
@@ -10772,8 +10772,8 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	[NATIONAL_DEX_REGIELEKI] =
 	{
 		.categoryName = {_E, _l, _e, _c, _t, _r, _o, _n, _END, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
+		.height = 12,
+		.weight = 1450,
 		.description = DEX_ENTRY_REGIELEKI,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
@@ -10784,8 +10784,8 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	[NATIONAL_DEX_REGIDRAGO] =
 	{
 		.categoryName = {_D, _r, _a, _g, _o, _n, _SPACE, _O, _r, _b, _END, _SPACE},
-		.height = 0,
-		.weight = 0,
+		.height = 21,
+		.weight = 2000,
 		.description = DEX_ENTRY_REGIDRAGO,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,

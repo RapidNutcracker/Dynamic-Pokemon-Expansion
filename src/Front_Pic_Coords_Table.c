@@ -5631,7 +5631,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_CHEWTLE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x7,
 	},
 	[SPECIES_DREDNAW] =
 	{
@@ -5656,7 +5656,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_CARKOL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0x5,
 	},
 	[SPECIES_COALOSSAL] =
 	{
@@ -5806,7 +5806,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_MILCERY] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x7,
 	},
 	[SPECIES_ALCREMIE_STRAWBERRY] =
 	{
@@ -5826,7 +5826,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SNOM] =
 	{
 		.size = 0x0,
-		.y_offset = 0x10,
+		.y_offset = 0x12,
 	},
 	[SPECIES_FROSMOTH] =
 	{
@@ -5846,12 +5846,12 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_INDEEDEE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0x6,
 	},
 	[SPECIES_MORPEKO] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0xA,
 	},
 	[SPECIES_CUFANT] =
 	{
@@ -6061,7 +6061,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_FARFETCHD_G] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0x7,
 	},
 	[SPECIES_KOFFING_G] =
 	{
