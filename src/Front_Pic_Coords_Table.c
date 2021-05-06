@@ -5666,7 +5666,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_APPLIN] =
 	{
 		.size = 0x0,
-		.y_offset = 0xB,
+		.y_offset = 0xD,
 	},
 	[SPECIES_FLAPPLE] =
 	{
@@ -5681,7 +5681,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SILICOBRA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0x9,
 	},
 	[SPECIES_SANDACONDA] =
 	{
@@ -5736,7 +5736,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SINISTEA] =
 	{
 		.size = 0x0,
-		.y_offset = 5,
+		.y_offset = 0x7,
 	},
 	[SPECIES_POLTEAGEIST] =
 	{
@@ -5861,7 +5861,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_COPPERAJAH] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x4,
 	},
 	[SPECIES_DRACOZOLT] =
 	{
