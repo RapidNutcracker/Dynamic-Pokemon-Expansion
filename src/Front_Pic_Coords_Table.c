@@ -5121,7 +5121,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SANDSHREW_A] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0xB,
 	},
 	[SPECIES_SANDSLASH_A] =
 	{
@@ -5646,7 +5646,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_BOLTUND] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_ROLYCOLY] =
 	{
@@ -5706,7 +5706,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_TOXEL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x6,
 	},
 	[SPECIES_TOXTRICITY] =
 	{

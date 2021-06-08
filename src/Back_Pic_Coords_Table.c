@@ -4191,12 +4191,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_ZYGARDE_10] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x8,
 	},
 	[SPECIES_ZYGARDE_COMPLETE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x3,
 	},
 	[SPECIES_ASHGRENINJA] =
 	{

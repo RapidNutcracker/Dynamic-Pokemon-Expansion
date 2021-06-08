@@ -615,6 +615,7 @@
 #define ITEM_CENTISKITE   0x2E7
 #define ITEM_SANDACONDITE 0x2E8
 #define ITEM_ALCREMITE    0x2E9
+#define ITEM_ETERNAMAX_ORB 0x2EA
 
 //Z-Crystals
 enum
