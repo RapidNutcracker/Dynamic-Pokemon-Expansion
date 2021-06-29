@@ -5741,7 +5741,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_POLTEAGEIST] =
 	{
 		.size = 0x0,
-		.y_offset = 0xc,
+		.y_offset = 0xE,
 	},
 	[SPECIES_HATENNA] =
 	{
@@ -5816,7 +5816,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_FALINKS] =
 	{
 		.size = 0x0,
-		.y_offset = 0xd,
+		.y_offset = 0x10,
 	},
 	[SPECIES_PINCURCHIN] =
 	{

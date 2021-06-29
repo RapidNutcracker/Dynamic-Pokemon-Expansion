@@ -6041,7 +6041,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_PONYTA_G] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0xA,
 	},
 	[SPECIES_RAPIDASH_G] =
 	{
