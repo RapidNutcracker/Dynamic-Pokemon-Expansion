@@ -2582,7 +2582,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_RECKLESS,
 		.ability2 = ABILITY_FLASHFIRE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_FLAMINGSOUL,
+		.hiddenAbility = ABILITY_WILDFIRE,
 		.noFlip = TRUE,
 	},
 
@@ -3506,7 +3506,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_UNBURDEN,
 		.ability2 = ABILITY_RECKLESS,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_STRIKER,
+		.hiddenAbility = ABILITY_LEADFOOT,
 		.noFlip = TRUE,
 	},
 
@@ -5189,7 +5189,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_FLASHFIRE,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_FLAMINGSOUL,
+		.hiddenAbility = ABILITY_WILDFIRE,
 		.noFlip = TRUE,
 	},
 
@@ -31458,7 +31458,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_LEAFGUARD,
 		.ability2 = ABILITY_QUEENLYMAJESTY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_STRIKER,
+		.hiddenAbility = ABILITY_LEADFOOT,
 		.noFlip = TRUE,
 	},
 
