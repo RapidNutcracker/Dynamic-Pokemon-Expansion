@@ -20500,8 +20500,8 @@ const struct LevelUpMove* const gLevelUpLearnsets[] =
 	[SPECIES_URSHIFU_RAPID_GIGA] = sUrshifuRapidLevelUpLearnset,
 	[SPECIES_GLASTRIER] = sGlastrierLevelUpLearnset,
 	[SPECIES_SPECTRIER] = sSpectrierLevelUpLearnset,
-	[SPECIES_CALYREX_ICE] = sCalyrexIceLevelUpLearnset,
-	[SPECIES_CALYREX_SHADOW] = sCalyrexShadowLevelUpLearnset,
+	[SPECIES_CALYREX_ICE_RIDER] = sCalyrexIceLevelUpLearnset,
+	[SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexShadowLevelUpLearnset,
 };
 
 #endif

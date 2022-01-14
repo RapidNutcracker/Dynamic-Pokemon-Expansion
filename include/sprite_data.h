@@ -6210,13 +6210,11 @@ extern const u8 gIconSprite1238EeveeGigaTiles[];
 */
 extern const u8 gIconSprite1239SnorlaxGigaTiles[];
 extern const u8 gIconSprite1240GarbodorGigaTiles[];
-/*
-extern const u8 gIconSprite1241MelmetalGigaTiles[];
+//extern const u8 gIconSprite1241MelmetalGigaTiles[];
 extern const u8 gIconSprite1242RillaboomGigaTiles[];
 extern const u8 gIconSprite1243CinderaceGigaTiles[];
 extern const u8 gIconSprite1244InteleonGigaTiles[];
 extern const u8 gIconSprite1245CorviknightGigaTiles[];
-*/
 extern const u8 gIconSprite1246OrbeetleGigaTiles[];
 extern const u8 gIconSprite1247DrednawGigaTiles[];
 extern const u8 gIconSprite1248CoalossalGigaTiles[];
@@ -6224,8 +6222,8 @@ extern const u8 gIconSprite1249FlappleGigaTiles[];
 extern const u8 gIconSprite1250AppletunGigaTiles[];
 extern const u8 gIconSprite1251SandacondaGigaTiles[];
 extern const u8 gIconSprite1252ToxtricityGigaTiles[];
-/*
-extern const u8 gIconSprite1253ToxtricityLowKeyGigaTiles[]; */
+
+//extern const u8 gIconSprite1253ToxtricityLowKeyGigaTiles[]; 
 extern const u8 gIconSprite1254CentiskorchGigaTiles[];
 //extern const u8 gIconSprite1255HattereneGigaTiles[];
 extern const u8 gIconSprite1256GrimmsnarlGigaTiles[];
@@ -6233,10 +6231,9 @@ extern const u8 gIconSprite1257AlcremieGigaTiles[];
 extern const u8 gIconSprite1258CopperajahGigaTiles[];
 
 extern const u8 gIconSprite1259DuraludonGigaTiles[];
-/*
-extern const u8 gIconSprite1260UrshifuSilentGigaTiles[];
+
+extern const u8 gIconSprite1260UrshifuSingleGigaTiles[];
 extern const u8 gIconSprite1261UrshifuRapidGigaTiles[];
-*/
 extern const u8 gIconSprite1262GlastrierTiles[];
 extern const u8 gIconSprite1263SpectrierTiles[];
 // extern const u8 gIconSprite1264CalyrexIcePal[];

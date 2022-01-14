@@ -1272,6 +1272,6 @@ const struct CompressedSpriteSheet gMonBackPicTable[NUM_SPECIES] =
 	[SPECIES_URSHIFU_RAPID_GIGA] =   {gBackShinySprite1261UrshifuRapidGigaTiles, (64 * 64) / 2, SPECIES_URSHIFU_RAPID_GIGA},
 	[SPECIES_GLASTRIER]          =   {gBackShinySprite1262GlastrierTiles, (64 * 64) / 2, SPECIES_GLASTRIER},
 	[SPECIES_SPECTRIER]          =   {gBackShinySprite1263SpectrierTiles, (64 * 64) / 2, SPECIES_SPECTRIER},
-	[SPECIES_CALYREX_ICE]          =   {gBackShinySprite1264CalyrexIceTiles, (64 * 64) / 2, SPECIES_CALYREX_ICE},
-	[SPECIES_CALYREX_SHADOW]          =   {gBackShinySprite1265CalyrexShadowTiles, (64 * 64) / 2, SPECIES_CALYREX_SHADOW},
+	[SPECIES_CALYREX_ICE_RIDER]          =   {gBackShinySprite1264CalyrexIceTiles, (64 * 64) / 2, SPECIES_CALYREX_ICE_RIDER},
+	[SPECIES_CALYREX_SHADOW_RIDER]          =   {gBackShinySprite1265CalyrexShadowTiles, (64 * 64) / 2, SPECIES_CALYREX_SHADOW_RIDER},
 };
