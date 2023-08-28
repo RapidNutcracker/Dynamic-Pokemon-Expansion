@@ -10805,6 +10805,115 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	// 	.trainerScale = 0,
 	// 	.trainerOffset = 0,
 	// },
+	[NATIONAL_DEX_EEVEE_NORMAL] =
+	{
+		.categoryName = {_N, _o, _r, _m, _a, _l, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 21,
+		.weight = 2000,
+		.description = DEX_ENTRY_EEVEE_NORMAL,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
+	[NATIONAL_DEX_EEVEE_FIGHTING] =
+	{
+		.categoryName = {_F, _i, _g, _h, _t, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_EEVEE_FIGHTING,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	[NATIONAL_DEX_EEVEE_FLYING] =
+	{
+		.categoryName = {_F, _l, _y, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_EEVEE_FLYING,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	[NATIONAL_DEX_EEVEE_POISON] =
+	{
+		.categoryName = {_P, _o, _i, _s, _o, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_EEVEE_POISON,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	[NATIONAL_DEX_EEVEE_GROUND] =
+	{
+		.categoryName = {_G, _r, _o, _u, _n, _d, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_EEVEE_GROUND,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	[NATIONAL_DEX_EEVEE_ROCK] =
+	{
+		.categoryName = {_R, _o, _c, _k, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_EEVEE_ROCK,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	[NATIONAL_DEX_EEVEE_BUG] =
+	{
+		.categoryName = {_I, _n, _s, _e, _c, _t, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_EEVEE_BUG,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	[NATIONAL_DEX_EEVEE_GHOST] =
+	{
+		.categoryName = {_S, _p, _o, _o, _k, _y, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_EEVEE_GHOST,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	[NATIONAL_DEX_GALVEON] =
+	{
+		.categoryName = {_S, _t, _e, _e, _l, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 290,
+		.description = DEX_ENTRY_GALVEON,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
+	
 };
 
 //Certain Pokemon forms can have alternate dex entries when viewed
@@ -10880,5 +10989,6 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(ZAMAZENTA_CROWNED),
 	ALTERNATE_ENTRY(ETERNATUS_ETERNAMAX),
 	ALTERNATE_ENTRY(URSHIFU_RAPID),
+	ALTERNATE_ENTRY(EEVEE_P),
 	{SPECIES_TABLES_TERMIN, 0} 
 };

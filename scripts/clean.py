@@ -6,7 +6,7 @@ import shutil
 import hashlib
 import glob, os.path
 
-ROM_NAME = "test.gba"
+ROM_NAME = "DPE.gba"
 SRC = './src'
 GRAPHICS = './graphics'
 ASSEMBLY = './assembly'

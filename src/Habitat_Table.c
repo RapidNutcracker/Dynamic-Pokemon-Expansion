@@ -2200,6 +2200,7 @@ const u16 gUrbanPage17[] =
 {
 	SPECIES_ESPEON,
 	SPECIES_UMBREON,
+	// SPECIES_EEVEE_GHOST,
 };
 
 const u16 gUrbanPage18[] =
@@ -2207,7 +2208,29 @@ const u16 gUrbanPage18[] =
 	SPECIES_LEAFEON,
 	SPECIES_GLACEON,
 	SPECIES_SYLVEON,
+	// SPECIES_EEVEE_DRAGON,
 };
+
+// const u16 gUrbanPage18_1[] =
+// {
+// 	SPECIES_EEVEE_P,
+// 	SPECIES_EEVEE_NORMAL,
+// 	SPECIES_EEVEE_FIGHTING,
+// 	SPECIES_EEVEE_FLYING,
+// };
+
+// const u16 gUrbanPage18_2[] =
+// {
+// 	SPECIES_EEVEE_GROUND,
+// 	SPECIES_EEVEE_ROCK,
+// 	SPECIES_GALVEON,
+// };
+
+// const u16 gUrbanPage18_3[] =
+// {
+// 	SPECIES_EEVEE_POISON,
+// 	SPECIES_EEVEE_BUG,
+// };
 
 const u16 gUrbanPage19[] =
 {
@@ -2924,6 +2947,9 @@ const struct HabitatPage gUrbanPages[] =
 	{gUrbanPage16, ARRAY_COUNT(gUrbanPage16)}, 
 	{gUrbanPage17, ARRAY_COUNT(gUrbanPage17)}, 
 	{gUrbanPage18, ARRAY_COUNT(gUrbanPage18)}, 
+	// {gUrbanPage18_1, ARRAY_COUNT(gUrbanPage18_1)}, 
+	// {gUrbanPage18_2, ARRAY_COUNT(gUrbanPage18_2)}, 
+	// {gUrbanPage18_3, ARRAY_COUNT(gUrbanPage18_3)}, 
 	{gUrbanPage19, ARRAY_COUNT(gUrbanPage19)}, 
 	{gUrbanPage20, ARRAY_COUNT(gUrbanPage20)}, 
 	{gUrbanPage21, ARRAY_COUNT(gUrbanPage21)}, 

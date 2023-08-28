@@ -8,8 +8,8 @@ from datetime import datetime
 import _io
 
 OFFSET_TO_PUT = 0x1600000
-SOURCE_ROM = "BPRE0.gba"
-ROM_NAME = "test.gba"
+SOURCE_ROM = "patched.gba"
+ROM_NAME = "DPE.gba"
 
 if sys.platform.startswith('win'):
     PathVar = os.environ.get('Path')

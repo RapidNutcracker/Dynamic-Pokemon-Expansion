@@ -4,8 +4,8 @@
 ##(Eg. repoints pointer located at 0x8016364 which is 0x81D65A8 in vanilla, does not repoint 0x8016364)
 gSpeciesNames 08000144
 gBaseStats 080001BC
-gEggMoves 08045C50
 gTMHMLearnsets 08043C68
+gEggMoves 08045C50
 gTutorLearnsets 08120C30
 
 gCryTable 08072114

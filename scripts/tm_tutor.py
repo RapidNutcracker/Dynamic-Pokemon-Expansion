@@ -5,14 +5,13 @@ from glob import glob
 # Data
 TM_HM_COUNT = 128
 TUTOR_COUNT = 128
-SPECIES_COUNT = 0x4F3 + 1
+SPECIES_COUNT = 0x50D + 1
 
 TM_OUTPUT = "assembly/generated/tm_compatibility.s"
 TUTOR_OUTPUT = "assembly/generated/tutor_compatibility.s"
 TM_COMPATIBILITY = "src/tm_compatibility"
 TUTOR_COMPATIBILITY = "src/tutor_compatibility"
 SPECIES_DEFINES = "include/species.h"
-
 
 # Uses pre-made files corresponding to each TM to build species TM Data
 def TMDataBuilder():

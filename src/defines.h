@@ -3,7 +3,7 @@
 #include "../include/types.h"
 #include "../include/species.h"
 
-#define EVOS_PER_MON 16
+#define EVOS_PER_MON 9
 
 #define FALSE 0
 #define TRUE 1
